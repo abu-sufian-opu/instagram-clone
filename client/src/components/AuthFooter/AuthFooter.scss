@@ -1,0 +1,49 @@
+.auth-footer {
+    display: flex;
+    width: 950px;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+    // position: fixed;
+    // bottom: 10px;
+    // scroll-behavior: smooth;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 10px;
+        li {
+            list-style: none;
+            
+            a {
+                text-decoration: none;
+                color: gray;
+                font-size: 12px;
+                line-height: 28px;
+                font-weight: 500;
+            }
+
+        }
+        
+    }
+
+    .copy-right-area {
+        display: flex;
+        gap: 15px;
+        line-height: 16px;
+        color: gray;
+        margin-top: 10px;
+        select {
+            border: none;
+            font-size: 12px;
+            line-height: 16px;
+            color: gray;
+            &:focus{
+                outline: none;
+            }
+        }
+        .copy-right-text {
+            font-size: 12px;
+        }
+    }
+}
